@@ -4,11 +4,128 @@ using exemploExplorando.Models;
 
 
 
+
+
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+
+estados.Add("SP", "São Paulo");
+estados.Add("RJ", "Rio de Janeiro");
+
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+estados.Remove("SP");
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+/*
+Stack<int> pilha = new Stack<int>();
+
+
+
+pilha.Push(1);
+pilha.Push(2);
+pilha.Push(3);
+pilha.Push(4);
+
+foreach (var item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+pilha.Pop();
+Console.WriteLine($"Removendo o elemento: {pilha.Pop()}");
+
+foreach (var item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+/*
+
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(1);
+fila.Enqueue(2);
+fila.Enqueue(3);
+fila.Enqueue(4);
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+//new ExemploExcecao().Metodo1();
+
+
+
+
+
+/*
+try
+{
+
+    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+    foreach (string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }
+
+}
+catch (NullReferenceException ex)
+{
+    Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+
+}
+catch (FileNotFoundException ex)
+{
+    Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+
+}
+finally
+{
+    Console.WriteLine("Chegou no finally");
+}
+*/
+
+
+/*
 DateTime data = DateTime.Now;
 
 Console.WriteLine(data.ToShortTimeString());
 
-
+*/
 
 
 
