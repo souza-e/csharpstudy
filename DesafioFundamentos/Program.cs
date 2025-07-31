@@ -1,7 +1,31 @@
 ﻿using DesafioFundamentos.Models;
 
+
+
+
+Aluno a1 = new Aluno();
+
+a1.nome = "João";
+a1.idade = 20;
+a1.apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Coloca o encoding para UTF8 para exibir acentuação
-Console.OutputEncoding = System.Text.Encoding.UTF8;
+/*Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 decimal precoInicial = 0;
 decimal precoPorHora = 0;
@@ -57,3 +81,4 @@ while (exibirMenu)
 }
 
 Console.WriteLine("O programa se encerrou");
+*/
