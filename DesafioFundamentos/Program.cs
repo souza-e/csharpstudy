@@ -1,18 +1,41 @@
-﻿using DesafioFundamentos.Models;
+﻿using DesafioFundamentos.Interfaces;
+using DesafioFundamentos.Models;
+
+
+ICalculadora calculadora = new Calculadora();
+Console.WriteLine(calculadora.Somar(5, 3));        // Saída: 8
 
 
 
 
+/*
+Aluno a1 = new Aluno("João");
+
+a1.idade = 20;
+
+*/
+
+
+
+/*
 Aluno a1 = new Aluno();
+Professor p1 = new Professor();
 
 a1.nome = "João";
 a1.idade = 20;
 a1.apresentar();
+a1.nota = 85;
+a1.email = "souza@hotmail.com";
+
+
+p1.nome = "Maria";
+p1.idade = 40;
+p1.salario = 5000;
+p1.apresentar();
 
 
 
-
-
+*/
 
 
 
