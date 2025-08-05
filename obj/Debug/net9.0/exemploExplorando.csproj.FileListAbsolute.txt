@@ -1,0 +1,15 @@
+E:\DIO\exemploExplorando\bin\Debug\net9.0\exemploExplorando.exe
+E:\DIO\exemploExplorando\bin\Debug\net9.0\exemploExplorando.deps.json
+E:\DIO\exemploExplorando\bin\Debug\net9.0\exemploExplorando.runtimeconfig.json
+E:\DIO\exemploExplorando\bin\Debug\net9.0\exemploExplorando.dll
+E:\DIO\exemploExplorando\bin\Debug\net9.0\exemploExplorando.pdb
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.AssemblyInfoInputs.cache
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.AssemblyInfo.cs
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.csproj.CoreCompileInputs.cache
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.dll
+E:\DIO\exemploExplorando\obj\Debug\net9.0\refint\exemploExplorando.dll
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.pdb
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.genruntimeconfig.cache
+E:\DIO\exemploExplorando\obj\Debug\net9.0\ref\exemploExplorando.dll
+E:\DIO\exemploExplorando\obj\Debug\net9.0\exemploExplorando.sourcelink.json
