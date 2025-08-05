@@ -8,6 +8,13 @@ Console.WriteLine(calculadora.Somar(5, 3));        // Saída: 8
 
 
 
+ListaNome Lis = new ListaNome();
+
+Lis.AdicionarNome();
+
+
+
+
 /*
 Aluno a1 = new Aluno("João");
 
